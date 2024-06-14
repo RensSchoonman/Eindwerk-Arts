@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eindwerk</title>
+  <link rel="stylesheet" href="Eindwerk.css">
+  <!-- Add Font Awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+  <nav data-toggled="false" data-transitionable="false">
+    <div id="nav-logo-section" class="nav-section">
+      <a href="#">
+      </a>
+    </div>
+    <div id="nav-mobile-section">
+      <div id="nav-link-section" class="nav-section">
+        <a href="#">OVER</a>
+        <a href="#">PROJECTEN</a>
+      </div>
+      <div id="nav-social-section" class="nav-section">
+        <a href="#">
+          <i class="fab fa-linkedin"></i> <!-- Updated icon class -->
+        </a>   
+        <a href="#">
+          <i class="fab fa-instagram"></i> <!-- Updated icon class -->
+        </a>
+      </div>
+      <div id="nav-contact-section" class="nav-section">
+        <a href="#">GET IN TOUCH</a>
+      </div>
+    </div>
+    <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+      <span>Menu</span>
+      <i class="fas fa-bars"></i> <!-- Updated icon class -->
+    </button>
+  </nav>
+  
+  <main>
+    <article data-index="0" data-status="active">
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>
+          Een korte beschrijving van het project. laborum excepteur eu veniam et irure sit sit id culpa excepteur aliquip est.
+        </p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>TITEL VAN ONTWERP</h2>
+        <i class="fas fa-plus"></i> <!-- Updated icon class -->
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fas fa-arrow-left"></i> <!-- Updated icon class -->
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fas fa-arrow-right"></i> <!-- Updated icon class -->
+        </button>
+      </div>
+    </article>
+    <article data-index="1" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>Een korte beschrijving van het project. laborum excepteur eu veniam et irure sit sit id culpa excepteur aliquip est.</p>
+      </div>
+      <div class="article-title-section article-section">
+          <h2>TITEL VAN ONTWERP</h2>
+        <i class="fas fa-plus"></i> <!-- Updated icon class -->
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fas fa-arrow-left"></i> <!-- Updated icon class -->
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fas fa-arrow-right"></i> <!-- Updated icon class -->
+        </button>
+      </div>
+    </article>
+    <article data-index="2" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>Een korte beschrijving van het project. laborum excepteur eu veniam et irure sit sit id culpa excepteur aliquip est.</p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>TITEL VAN ONTWERP</h2>
+        <i class="fas fa-plus"></i> <!-- Updated icon class -->
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fas fa-arrow-left"></i> <!-- Updated icon class -->
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fas fa-arrow-right"></i> <!-- Updated icon class -->
+        </button>
+      </div>
+    </article>
+    <article data-index="3" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>
+          Een korte beschrijving van het project. laborum excepteur eu veniam et irure sit sit id culpa excepteur aliquip est.
+        </p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>TITEL VAN ONTWERP</h2>
+        <i class="fas fa-plus"></i> <!-- Updated icon class -->
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fas fa-arrow-left"></i> <!-- Updated icon class -->
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fas fa-arrow-right"></i> <!-- Updated icon class -->
+        </button>
+      </div>
+    </article>
+  </main>
+
+  <script src="Eindwerk.js"></script>
+
+</body>
+</html>
